@@ -1,0 +1,24 @@
+{
+  "name": "testcontainer-ghaction",
+  "version": "1.0.0",
+  "description": "Test containers test with GH action",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-botz/testcontainer-ghaction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t-botz/testcontainer-ghaction/issues"
+  },
+  "homepage": "https://github.com/t-botz/testcontainer-ghaction#readme",
+  "devDependencies": {
+    "async-redis": "2.0.0",
+    "jest": "28.1.3",
+    "testcontainers": "8.11.1"
+  }
+}
